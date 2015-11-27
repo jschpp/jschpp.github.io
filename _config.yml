@@ -16,3 +16,6 @@ twitter_username: jschpp
 github_username:  jschpp
 # Build settings
 markdown: kramdown
+
+permalink:     date
+timezone:      Europe/Berlin 
