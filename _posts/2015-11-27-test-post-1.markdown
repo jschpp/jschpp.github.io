@@ -4,4 +4,6 @@ title:  "Test Post 1"
 date:   2015-11-27 15:07:00 +0100
 categories: jekyll update
 ---
-This is a test post to check wether my post update hook works
+This is a test post to check wether my post update hook works.
+
+Another sentence.
