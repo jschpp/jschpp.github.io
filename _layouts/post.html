@@ -21,6 +21,7 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+    {% assign author = site.data.people[jschpp] %}
     {{ content }}
     {{ page.author }} {{ author.twitter }}
   </div>
