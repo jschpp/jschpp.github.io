@@ -11,9 +11,9 @@ layout: default
 		{{ page.date | date: "%b %-d, %Y" }}
 	</time>{% if page.author %} • 
 	<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-		<a rel="author"href="{{ author.twitter }}" title="{{ author.name }}">
+		<a rel="author" href="{{ author.twitter }}" title="{{ author.name }}">
 			<span itemprop="name">
-				{{ author.name }}
+				{{ page.author }}
 			</span>
 		</a>
 	</span>{% endif %}
