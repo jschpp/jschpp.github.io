@@ -5,6 +5,13 @@ author: jschpp
 date:   2015-11-27 15:07:00 +0100
 categories: jekyll update
 ---
+{% assign author = site.data.people[page.author] %}
+<a rel="author"
+  href="{{ author.twitter }}"
+  title="{{ author.name }}">
+    {{ author.name }}
+</a>
+
 This is a test post to check wether my post update hook works.
 
 Another sentence.
