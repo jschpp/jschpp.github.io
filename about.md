@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+sitemap:
+  changefreq: 'never'
 ---
 
 Dieser Blog wird betrieben von:

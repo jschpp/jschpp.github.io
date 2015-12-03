@@ -2,6 +2,8 @@
 layout: page
 title: Disclaimer
 permalink: /disclaimer/
+sitemap:
+  changefreq: 'never'
 ---
 
 ### 1\. Haftungsbeschränkung

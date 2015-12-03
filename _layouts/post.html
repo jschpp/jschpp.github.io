@@ -1,5 +1,9 @@
 ---
 layout: default
+{% if page.date %}
+sitemap:
+  lastmod: page.date
+{% endif %}
 ---
 {% assign author = site.data.people[page.author] %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
