@@ -1,4 +1,8 @@
-# Disclaimer - rechtliche Hinweise
+---
+layout: page
+title: Disclaimer
+permalink: /disclaimer/
+---
 
 ### 1\. Haftungsbeschränkung
 
