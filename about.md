@@ -9,7 +9,7 @@ Dieser Blog wird betrieben von:
 Johannes Schöpp  
 Friedrichstraße 11  
 63225 Langen  
-email: {{site.email}}
+email: <{{site.email}}>
 
 
 
