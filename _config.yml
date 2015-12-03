@@ -10,8 +10,8 @@ title: jschpp's Blog
 email: mail@jschpp.de
 
 description: > # this means to ignore newlines until "baseurl:"
-  stuff I'm thinking about. stuff I've written. Or just stuff in general.
-  But Mostly stuff about computers...
+  Stuff I'm thinking about. Stuff I've written. Or just stuff in general.
+  But mostly stuff about computers...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jschpp.de"
 twitter_username: jschpp
