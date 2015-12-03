@@ -14,6 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jschpp.de" # the base hostname & protocol for your site
 twitter_username: jschpp
 github_username:  jschpp
+
 # Build settings
 markdown: kramdown
 
