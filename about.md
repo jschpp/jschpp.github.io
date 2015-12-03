@@ -9,4 +9,4 @@ Johannes Schöpp
 betrieben.
 
 Disclaimer:
-{% include disclaimer.html %}
+{% include disclaimer.md %}
