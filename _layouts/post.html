@@ -2,7 +2,7 @@
 layout: default
 {% if page.date %}
 sitemap:
-  lastmod: page.date
+  lastmod: {{page.date}}
 {% endif %}
 ---
 {% assign author = site.data.people[page.author] %}
