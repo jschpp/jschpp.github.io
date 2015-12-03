@@ -8,4 +8,6 @@ Dieser Blog wird von
 Johannes Schöpp
 betrieben.
 
-[Disclaimer][{{site.baseurl}}/disclaimer]
+[Disclaimer][link]
+
+[link]: {{site.baseurl}}/disclaimer
