@@ -25,6 +25,9 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+		  <li>
+		  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via {% include icon-rss.svg %}</a></p>
+		  </li>
         </ul>
       </div>
 
