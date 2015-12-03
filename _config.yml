@@ -10,7 +10,7 @@ title: jschpp's Blog
 email: mail@jschpp.de
 
 description: > # this means to ignore newlines until "baseurl:"
-    Stuff I'm thinking about. Stuff I've written. Or just Stuff in general...
+  Stuff I'm thinking about. Stuff I've written. Or just Stuff in general...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jschpp.de"
 twitter_username: jschpp
@@ -20,4 +20,4 @@ github_username:  jschpp
 markdown: kramdown
 
 permalink:     date
-timezone:      Europe/Berlin 
+timezone:      Europe/Berlin
