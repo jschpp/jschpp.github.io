@@ -4,9 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Dieser Blog wird von
-Johannes Schöpp
-betrieben.
+Dieser Blog wird betrieben von:
+
+Johannes Schöpp  
+Friedrichstraße 11  
+63225 Langen  
+email: {{site.email}}
+
+
 
 [Disclaimer][link]
 
