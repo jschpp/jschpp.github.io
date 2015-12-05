@@ -31,5 +31,10 @@ socialmedia:
   - username: jschpp
     link: icon-facebook.html
 
+menu:
+  - name: About
+    url: /about/
+
+
 gems:
   - jekyll-gist
