@@ -30,3 +30,6 @@ socialmedia:
     link: icon-github.html
   - username: jschpp
     link: icon-facebook.html
+
+gems:
+  - jekyll-gist
