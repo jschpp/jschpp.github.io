@@ -14,20 +14,14 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% for account in site.socialmedia %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include {{ account.link }} username=account.username%}
           </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
+          {% endfor %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">{% include icon-rss.svg %} subscribe</a>
           </li>
-          {% endif %}
-		  <li>
-		  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">{% include icon-rss.svg %} subscribe</a>
-		  </li>
         </ul>
       </div>
 

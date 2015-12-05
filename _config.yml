@@ -9,7 +9,7 @@
 title: jschpp's Blog
 email: mail@jschpp.de
 
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Stuff I'm thinking about. Stuff I've written. Or just stuff in general.
   But mostly stuff about computers...
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,3 +22,11 @@ markdown: kramdown
 
 permalink:     date
 timezone:      Europe/Berlin
+
+socialmedia:
+  - username: jschpp
+    link: icon-twitter.html
+  - username: jschpp
+    link: icon-github.html
+  - username: jschpp
+    link: icon-facebook.html
