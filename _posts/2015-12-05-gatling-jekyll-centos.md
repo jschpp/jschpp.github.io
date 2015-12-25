@@ -16,7 +16,7 @@ Table of contents:
 * * *
 
 # Intro
-I wanted to try blogging again. So I checked for software I could use. I absolutely hate Wordpress and Co because it's simply to much stuff for just posting a random article or two. While searching for a simple blogging software I looked at one of my favorite blogs namely [fefes blog][fefe]. He is using a non disclosed C program to format his Blog and then publishes it with his own brand of web server.
+I wanted to try blogging again. So I checked for software I could use. I absolutely hate Wordpress and Co because it's simply to much stuff for just posting a random article or two. While searching for a simple blogging software I looked at one of my favorite blogs namely [fefes blog][fefe]. He is using a <del>non disclosed</del> C program to format his Blog and then publishes it with his own brand of web server. **EDIT:** Source Code for fefes blog can be found [here][fefesource].
 
 In my search for a *simple* blog software I found [Jekyll][jekyll]. I liked it because it generates static files which can be hosted by about anything and is highly customizable without messing around with this dreadful php stuff.
 
@@ -108,3 +108,4 @@ This concludes part 1 have a look [here][part2] for part 2.
 [diet]: https://www.fefe.de/dietlibc/
 [cloudflare]: {% post_url 2015-12-05-cloudflare-firewall %}
 [part2]: {{site.baseurl}}/nyp
+[fefesource]: https://erdgeist.org/cvsweb/Fefe/blog/
