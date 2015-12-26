@@ -37,6 +37,8 @@ menu:
   - name: Public Keys
     url: /keys/
 
+files: {{site.baseurl}}/files/
+
 
 gems:
   - jekyll-gist
