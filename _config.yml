@@ -23,6 +23,8 @@ markdown: kramdown
 permalink:     date
 timezone:      Europe/Berlin
 
+paginate: 5
+
 socialmedia:
   - username: jschpp
     link: icon-twitter.html
