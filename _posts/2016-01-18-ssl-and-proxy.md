@@ -2,8 +2,7 @@
 layout: post
 title:  "SSL and Proxy"
 author: jschpp
-date:   2015-12-26 13:48:00 +0100
-categories: talks
+date:   2016-01-18 17:26:00 +0100
 sitemap:
   changefreq: 'never'
 tags:
