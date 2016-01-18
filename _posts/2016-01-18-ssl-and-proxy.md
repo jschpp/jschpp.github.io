@@ -8,9 +8,9 @@ sitemap:
 tags:
   - gatling
 ---
-# tlsgatling
 After thinking a bit about my server configuration I realized that using a reverse proxy kinda eliminates the pupose of using gatling in the first place -.-'
 
+# tlsgatling
 So I set out to install gatling with ssl enabled.
 
 After searching for a bit I found [this message here][link]. The important part is this:
