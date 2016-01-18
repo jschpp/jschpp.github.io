@@ -60,22 +60,7 @@ This file needs to be moved to `/var/www` and need to be change to world unreada
 	chmod o-r server.pem
 
 I modified my `gatling.service` file to the following:
-{% highlight shell %}
-#!/bin/sh
-
-[Unit]
-Description=Control gatling webserver
-After=network.target
-
-[Service]
-Type=simple
-WorkingDirectory=/var/www
-ExecStart=/opt/diet/bin/tlsgatling -F -S -D
-ExecReload=/bin/kill $MAINPID && /opt/diet/bin/tlsgatling -F -S -D
-
-[Install]
-WantedBy=multi-user.target
-{% highlight shell %}
+{% gist jschpp/48cfbc378ed09045397b %}
 
 Now i can run
 
