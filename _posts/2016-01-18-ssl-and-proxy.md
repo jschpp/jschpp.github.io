@@ -17,7 +17,7 @@ After searching for a bit I found [this message here][link]. The important part 
 
 >This is how I did it:
 >
->     ./config --prefix=/opt/diet no-dso 
+>     ./config --prefix=/opt/diet no-dso
 >     make CC="diet -Os gcc -pipe -nostdinc"
 >
 >make install will then install to /opt/diet/lib, which is on my box a symlink to /opt/diet/lib-i386.
@@ -26,11 +26,11 @@ After another
 
     make install
 
-I tried compiling `tlsgatling` again just to realize that I still hat the `openssl-devel` package installed. So after uninstalling that and symlinking 
+I tried compiling `tlsgatling` again just to realize that I still hat the `openssl-devel` package installed. So after uninstalling that and symlinking
 
     ln -s /opt/diet/lib/libcrypto.a /lib64/.
     ln -s /opt/diet/lib/libssl.a /lib64/.
-	ln -s /opt/diet/include/openssl/ /usr/local/include/.
+    ln -s /opt/diet/include/openssl/ /usr/local/include/.
 
 Compiling worked fine. Finally I have a working `tlsgatling`
 
@@ -46,15 +46,16 @@ For my certificate I used [letsencrypt][letsenc]. The HowTo tells me I need to d
 Which didn't work... I first needed to shutdown my webserver than I needed to disable my _special_ [firewall rules][firewall]. Or to be more specific I needed to add some rules to my firewall
 
     firewall-cmd --add-rule=http --zone=public
-	firewall-cmd --add-rule=https --zone=public
+    firewall-cmd --add-rule=https --zone=public
     firewall-cmd --add-rule=http --permanent --zone=public
-	firewall-cmd --add-rule=https --permanent --zone=public
+    firewall-cmd --add-rule=https --permanent --zone=public
 
 (not sure if http is needed but I didn't care)
 
 After running the `letsencrypt` command again I had my certificate. If I want to use it I need to concatenate the privkey.pem and cert.pem files
 
 	cat /etc/letsencrypt/live/jschpp.de/privkey.pem /etc/letsencrypt/live/jschpp.de/cert.pem >server.pem
+
 This file needs to be moved to `/var/www` and need to be change to world unreadable
 
 	chmod o-r server.pem
@@ -65,6 +66,7 @@ I modified my `gatling.service` file to the following:
 Now i can run
 
 	systemctl daemon-reload && systemctl start gatling.service
+
 and have a running ssl enabled webserver
 
 [link]: http://news.gmane.org/find-root.php?message_id=20050225154211.GA12094%40codeblau.de
