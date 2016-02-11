@@ -38,6 +38,8 @@ menu:
     url: /about/
   - name: Public Keys
     url: /keys/
+  - name: Disclaimer
+    url: /disclaimer/
 
 files: "https://www.jschpp.de/files/"
 
