@@ -36,4 +36,6 @@ After trying some stuff we narrowed it down to the OAB
 This little script deactivates the automatic download of the OAB and deletes the local copies of it.
 {% gist jschpp/68686a6b7bd604b56666 %}
 
-The Problem with this is that you can still manually download it.
+The Problem with this is that you can still manually download the OAB.
+
+Furthermore: Every broken address stored in the Outlook AutoComplete needs to be deleted and typed in again manually. 
