@@ -8,9 +8,9 @@ After trying for what feels like the 100th time I finally found out how to switc
 
 It's really simple:
 
-{% higlight shell %}
+{% highlight shell %}
 sudo port install clang_select
 sudo port select --set clang mp-clang-3.6
-{% endhiglight %}
+{% endhighlight %}
 
 The above only works if `clang-3.6` was previous installed.
