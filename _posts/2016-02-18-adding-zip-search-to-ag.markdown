@@ -46,7 +46,7 @@ Trying to install `libzip-dev` yielded said version 0.11 of libzip. Trying to do
 - but __most__ importantly spamming @ggreer with every commit I made at 1 a.m. until [5][5] That even resulted in a commit by him removing notifications in his repo [6][6]
 
 So after managing to do all of the above points my travis config looks like this:
-{% highlight yaml %}
+{% highlight YAML %}
 language: c
 
 branches:
