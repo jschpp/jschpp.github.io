@@ -41,7 +41,7 @@ menu:
   - name: Disclaimer
     url: /disclaimer/
 
-files: "https://www.jschpp.de/files/"
+files: "/files/"
 
 
 gems:
