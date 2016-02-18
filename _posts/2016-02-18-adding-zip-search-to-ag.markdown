@@ -2,7 +2,6 @@
 layout: post
 title: "Adding zip search to ag"
 date: "2016-02-18 10:50:42 +0100"
-codebase: https://github.com/jschpp/the_silver_searcher/tree/d999d23ca5c7a7300173fe472ec57d5cbb85cc8a
 ---
 First of all kudos to @ggreer I really like `ag`. My problem was searching zip compressed folders with it.
 
