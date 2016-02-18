@@ -53,10 +53,6 @@ branches:
     - master
     - zip
 
-notifications:
-  email:
-    - mail@jschpp.de
-
 compiler:
   - clang
   - gcc

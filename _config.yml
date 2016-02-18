@@ -47,3 +47,4 @@ files: "https://www.jschpp.de/files/"
 gems:
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-mentions
