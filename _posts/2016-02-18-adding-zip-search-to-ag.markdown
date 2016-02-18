@@ -76,7 +76,7 @@ before_script:
 
 script:
   - ./build.sh && make test
-{% endhiglight %}
+{% endhighlight %}
 
 [ag-1.0]: http://geoff.greer.fm/2014/10/13/help-me-get-to-ag-10/
 [743]: https://github.com/ggreer/the_silver_searcher/issues/743
