@@ -78,6 +78,10 @@ before_script:
 script:
   - ./build.sh && make test
 {% endhighlight %}
+The interesting part is `before_script` & `branches: zip`
+
+# Result
+After fixing my travis.yml and annoying @ggreer at 1am the only thing left to do was running `./format.sh reformat`. Which would've been the most relaxing part if not for the fact that the `.clang-format` needs `clang-format` v3.6 which my mac doesn't have^^
 
 [ag-1.0]: http://geoff.greer.fm/2014/10/13/help-me-get-to-ag-10/
 [743]: https://github.com/ggreer/the_silver_searcher/issues/743
