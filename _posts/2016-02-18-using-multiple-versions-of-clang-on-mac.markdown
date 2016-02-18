@@ -13,4 +13,4 @@ sudo port install clang_select
 sudo port select --set clang mp-clang-3.6
 {% endhighlight %}
 
-The above only works if `clang-3.6` was previous installed.
+The above obviously only works if `clang-3.6` was previous installed.
