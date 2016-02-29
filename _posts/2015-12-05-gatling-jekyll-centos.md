@@ -102,7 +102,7 @@ This concludes part 1 have a look [here][part2] for part 2.
 [dislike]: https://blog.fefe.de/?q=systemd
 [gatling]: https://www.fefe.de/gatling/
 [fefe]: https://blog.fefe.de/
-[jekyll]: https://jekyllrb.com/
+[jekyll]: {{site.jekyll_url}}
 [fnord]: https://www.fefe.de/fnord/
 [fat]: https://www.fefe.de/libowfat/
 [diet]: https://www.fefe.de/dietlibc/
