@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "adding Disqus to my blog"
+title: "Adding Disqus to my blog"
 date: "2016-02-29 16:57:00 +0100"
 ---
 
