@@ -43,6 +43,13 @@ menu:
 
 files: "/files/"
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
 
 gems:
   - jekyll-gist
