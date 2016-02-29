@@ -10,7 +10,7 @@ So I decided on using [Disqus][disqus] for comments. Integrating it is quite sim
 
 # 1. Set up Disqus
 Follow [this FAQ article][faq1].
-Then use the "Universel Code" and embed it into your pages layout
+Then use the "Universal Code" and embed it into your pages layout
 
 # 2. Embed Disqus
 In my case I wanted Disqus at the bottom of every post I wrote. So I modified my post.html:
