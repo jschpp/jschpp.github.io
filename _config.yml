@@ -43,6 +43,8 @@ menu:
 
 files: "/files/"
 
+jekyll_url: https://jekyllrb.com/
+
 defaults:
   -
     scope:
