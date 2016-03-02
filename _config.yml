@@ -11,7 +11,8 @@ email: mail@jschpp.de
 
 description: >
   Stuff I'm thinking about. Stuff I've written. Or just stuff in general.
-  But mostly stuff about computers... Private Blog of Johannes Schöpp
+  But mostly stuff about computers...
+  Private Blog of Johannes Schöpp
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jschpp.de"
 twitter_username: jschpp
