@@ -20,7 +20,7 @@ I found this [mail][mail] which detailed pretty much the same problem.
 
 First instead of just using the `privkey.pem` and `cert.pem` to generate the `server.pem` the following is done:
 
-```bash
+```
 cat privkey.pem cert.pem chain.pem > server.pem
 ```
 
@@ -28,7 +28,7 @@ After that the new pem file can be copied and chmodded as described in [the prev
 
 Second: I don't know why but `tlsgatling` searches for a file named "www.example.net.pem" or in my case "www.jschpp.de.pem". As stated in the mail a simple symlink solves that problem
 
-```bash
+```
 ln -s server.pem www.jschpp.de.pem
 ```
 
