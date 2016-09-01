@@ -13,7 +13,7 @@ description: >
   Stuff I'm thinking about. Stuff I've written. Or just stuff in general.
   But mostly stuff about computers... <br>Private Blog of Johannes Schöpp
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.jschpp.de"
+url: "http://www.jschpp.de"
 twitter_username: jschpp
 github_username:  jschpp
 

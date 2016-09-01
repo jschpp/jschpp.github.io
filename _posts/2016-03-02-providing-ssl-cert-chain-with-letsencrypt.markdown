@@ -35,6 +35,6 @@ ln -s server.pem www.jschpp.de.pem
 Now my cert chain is complete and [ssllabs][ssllabs] gives me an "A" rating ^^
 
 [letsenc]: https://letsencrypt.org/
-[ssl-proxy]: https://www.jschpp.de/2016/01/18/ssl-and-proxy.html
+[ssl-proxy]: {% post_url 2016-01-18-ssl-and-proxy %}
 [mail]: http://permalink.gmane.org/gmane.comp.web.gatling/302
 [ssllabs]: https://www.ssllabs.com/ssltest/analyze.html?d=jschpp.de

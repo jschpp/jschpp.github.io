@@ -71,4 +71,4 @@ and have a running ssl enabled webserver
 
 [link]: http://news.gmane.org/find-root.php?message_id=20050225154211.GA12094%40codeblau.de
 [letsenc]: https://letsencrypt.org/
-[firewall]: https://www.jschpp.de/2015/12/05/cloudflare-firewall.html
+[firewall]: {% post_url 2015-12-05-cloudflare-firewall %}
