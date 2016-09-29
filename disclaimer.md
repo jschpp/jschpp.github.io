@@ -4,6 +4,7 @@ title: Disclaimer
 permalink: /disclaimer/
 sitemap:
   changefreq: 'never'
+lang: de
 ---
 
 ### 1\. Haftungsbeschränkung

@@ -5,6 +5,7 @@ permalink: /keys/
 sitemap:
   changefreq: 'never'
   lastmod: 2015-12-07
+lang: en
 ---
 
 Meine Öffentlichen Schlüssel / My public keys:

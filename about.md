@@ -5,6 +5,7 @@ permalink: /about/
 sitemap:
   changefreq: 'never'
   lastmod: 2015-12-03
+lang: de
 ---
 
 Dieser Blog wird betrieben von:
