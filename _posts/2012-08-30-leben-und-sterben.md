@@ -3,6 +3,7 @@ layout: post
 title:  "Leben und Sterben in einer Digitalen Welt"
 author: jschpp
 date: 2012-08-30 05:11:00 -0800
+lang: de
 ---
 Ported from one of my old german blogs.
 
