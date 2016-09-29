@@ -13,7 +13,7 @@ lang: en
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>
-        <a class="post-link" {% if post.lang != site.lang %} lang="{{post.lang}}" {% endif %} href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link" {% if post.lang != page.lang %} lang="{{post.lang}}" {% endif %} href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       {{ post.excerpt }}
     </li>
