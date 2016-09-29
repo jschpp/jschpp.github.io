@@ -52,6 +52,7 @@ defaults:
       type: "posts"
     values:
       comments: true
+      lang: en
 
 gems:
   - jekyll-gist
