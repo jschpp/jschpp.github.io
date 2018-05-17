@@ -38,7 +38,7 @@ Searching the mighty internet brought me [this][mightyinternet]:
 
 Which helps immensely. So I wrote a quick and dirty side-by-comparison for files:
 
-{% gist jschpp/004e40d1821b3de15f09016aaee0e2d6 file-diff-ps1 %}
+{% gist jschpp/004e40d1821b3de15f09016aaee0e2d6 diff.ps1 %}
 
 With this the above comparison looks like this:
 
