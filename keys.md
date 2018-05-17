@@ -10,8 +10,8 @@ lang: en
 
 Meine Öffentlichen Schlüssel / My public keys:
 
-* [PGP Key][pgp]
-* [s/mime Key][mime]
+* ~~[PGP Key][pgp]~~
+* ~~[s/mime Key][mime]~~
 * [ssh][ssh]
 
 
