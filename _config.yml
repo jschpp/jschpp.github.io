@@ -16,6 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.jschpp.de"
 twitter_username: jschpp
 github_username:  jschpp
+repository: "jschpp/jschpp.github.io"
 
 # Build settings
 markdown: kramdown
@@ -54,7 +55,10 @@ defaults:
       comments: true
       lang: en
 
-gems:
+# highlighter: rouge
+
+plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-mentions
+  - rouge
