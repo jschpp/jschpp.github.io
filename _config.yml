@@ -62,3 +62,4 @@ plugins:
   - jekyll-paginate
   - jekyll-mentions
   - rouge
+  - jemoji
