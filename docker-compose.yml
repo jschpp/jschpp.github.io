@@ -1,0 +1,12 @@
+web:
+    build: .
+    ports:
+        - '8080:8080'
+    volumes_from: 
+        - bundle
+
+bundle:
+    image: "web"
+    command: echo I'm a little teapot
+    volumes:
+        - /bundle
