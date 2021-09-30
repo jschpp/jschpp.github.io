@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up an IP retrieval service
+title: "Setting up an IP retrieval service"
 date: 2021-09-30 15:13
 author: Johannes Schöpp
 tags: ["linux", "nginx"]
@@ -119,7 +119,7 @@ server {
 }
 
 server {
-    listen [::]:80 ipv6only=on
+    listen [::]:80 ipv6only=on;
     name id6.testserver.tld;
 
     location / {
