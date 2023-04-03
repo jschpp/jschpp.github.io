@@ -17,6 +17,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jemoji
 
 feed:
   path: feed.xml
