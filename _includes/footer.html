@@ -9,19 +9,20 @@
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-		  <li><a href="{{ "/keys/" | prepend: site.baseurl }}">public keys</a></li>
+          <li><a href="{{ " /keys/" | prepend: site.baseurl }}">public keys</a></li>
+          <li><a href="{{ " /.well-known/security.txt" | prepend: site.baseurl }}">security.txt</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% for account in site.socialmedia %}
+          {% for social in site.data.socials %}
           <li>
-            {% include {{ account.link }} username=account.username%}
+            {% include icon-social.html social=social%}
           </li>
           {% endfor %}
           <li>
-            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">{% include icon-rss.svg %} subscribe</a>
+            <a href="{{ " /feed.xml" | prepend: site.baseurl }}">{% include icon-rss.svg %} subscribe</a>
           </li>
         </ul>
       </div>

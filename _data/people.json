@@ -1,6 +1,8 @@
-{"jschpp":{
-	"name":"Johannes Schöpp",
-	"twitter":"jschpp",
-	"mail":"mail@jschpp.de",
-	"github":"jschpp"}
+{
+	"jschpp": {
+		"name": "Johannes Schöpp",
+		"twitter": "jschpp",
+		"mail": "mail@jschpp.de",
+		"github": "jschpp"
+	}
 }

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "fediverse",
+        "account": "jschpp",
+        "base-uri": "https://social.dev-wiki.de/@"
+    },
+    {
+        "name": "github",
+        "account": "jschpp",
+        "base-uri": "https://github.com/"
+    },
+    {
+        "name": "twitter",
+        "account": "jschpp",
+        "base-uri": "https://twitter.com/"
+    }
+]

@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:mail@jschpp.de
+Expires: 2024-04-03T10:00:00.000Z
+Encryption: https://jschpp.de/keys/mailATjschpp.asc
+Encryption: https://jschpp.de/keys/mailATjschpp.pem
+Preferred-Languages: en, de
+Canonical: https://jschpp.de/.well-known/security.txt
+
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTd/nc/x1iGpue5uM0mHZHHu+cKxgUCZCrW9AAKCRAmHZHHu+cK
+xgPeAQDKujxe23IzKfh1rAHQ8IBTIxuUikSSEGDdcJ5SbsC0EgEA448Ij/YzXUFg
+Cxrb3POlGFoCIeSmeWl/ZsdYs9xHHA0=
+=0ZSo
+-----END PGP SIGNATURE-----
